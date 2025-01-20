@@ -57,6 +57,7 @@
       - [NPM](#npm)
         - [Explications NPM](#explications-npm)
         - [Fonctionnement et Commandes](#fonctionnement-et-commandes)
+  - [MVC](#mvc)
 
 
 ## Definition des variables
@@ -632,3 +633,6 @@ testModule.testFunction(); // Affiche Hello World
    - `npm update nomDuPaquet`
 
 - Pour **voir les dépendences installés** vous devez utiliser la commande `npm list`
+
+## MVC
+![MVC](./MVC.png "MVC")
