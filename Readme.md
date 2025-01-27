@@ -36,6 +36,7 @@
       - [Copie d'un tableau](#copie-dun-tableau)
       - [Concaténation de tableaux](#concaténation-de-tableaux)
       - [Filtrer un tableau](#filtrer-un-tableau)
+      - [Find dans un tableau](#find-dans-un-tableau)
   - [Strings](#strings)
       - [Concaténation de chaînes de caractères](#concaténation-de-chaînes-de-caractères)
       - [Interpolation de chaînes de caractères (Concaténation)](#interpolation-de-chaînes-de-caractères-concaténation)
@@ -458,6 +459,14 @@ const nombres = [1, 2, 3, 4, 5];
 const nombresPairs = nombres.filter(nombre => nombre % 2 === 0);
 
 console.log(nombresPairs); // Affiche [2, 4]
+```
+#### Find dans un tableau
+```javascript
+// Find dans un tableau
+const fruits = ['Pomme', 'Banane', 'Orange'];
+const fruit = fruits.find(fruit => fruit === 'Banane');
+
+console.log(fruit); // Affiche Banane
 ```
 
 ## Strings
